@@ -1,0 +1,18 @@
+commit a4f61f9e3b86602f652534220fc2b93841a75aa1
+Author: Emmett Lalish <elalish@google.com>
+Date:   Thu Aug 13 12:23:34 2020 -0700
+
+    Url params (#1457)
+    
+    * Respect existing query parameters on gltfSrc url
+    
+    * Properly append query parameters of original glftSrc
+    * Check if gltfSrc contains link/title and only append them if not
+    
+    * remove logs
+    
+    * added tests
+    
+    * skip IE11 for AR tests
+    
+    Co-authored-by: Felix Herbst <herbst@prefrontalcortex.de>
